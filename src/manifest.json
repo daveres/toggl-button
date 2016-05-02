@@ -131,7 +131,9 @@
     "*://*.visualstudio.com/*",
     "*://*.smartboard.cl/*",
     "*://*.openproject.com/*",
-    "*://zube.io/*"
+    "*://zube.io/*",
+    "*://jira.logitravelgroup.com/*",
+    "*://confluence.logitravelgroup.com/*"
   ],
   "content_scripts": [
     {
@@ -234,7 +236,9 @@
         "*://*.openproject.com/*",
         "*://zube.io/*",
         "*://*.minicrm.pl/*",
-        "*://*.agenocrm.com/*"
+        "*://*.agenocrm.com/*",
+        "*://jira.logitravelgroup.com/*",
+        "*://confluence.logitravelgroup.com/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -309,7 +313,8 @@
     {
       "matches": [
         "*://*.atlassian.net/wiki/*",
-        "*://*.atlassian.com/wiki/*"
+        "*://*.atlassian.com/wiki/*",
+        "*://confluence.logitravelgroup.com/*"
       ],
       "js": ["scripts/content/confluence.js"]
     },
@@ -317,7 +322,8 @@
       "matches": [
         "*://*.atlassian.net/*",
         "*://*.atlassian.com/*",
-        "*://*.jira.com/*"
+        "*://*.jira.com/*",
+        "*://jira.logitravelgroup.com/*"
       ],
       "js": ["scripts/content/jira.js"]
     },
